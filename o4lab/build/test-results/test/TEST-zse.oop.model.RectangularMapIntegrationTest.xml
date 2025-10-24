@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="zse.oop.model.RectangularMapIntegrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-10-24T07:11:03.138Z" hostname="KOMP07" time="0.086">
+  <properties/>
+  <testcase name="testMovementOnMap()" classname="zse.oop.model.RectangularMapIntegrationTest" time="0.086"/>
+  <system-out><![CDATA[ y\x  0 1 2 3 4
+  5: -----------
+  4: | | | | | |
+  3: | | | |^| |
+  2: | | |^| | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | | | | |
+  3: | | |^|^| |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | | | | |
+  3: | | |^|>| |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | |^| | |
+  3: | | | |>| |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
