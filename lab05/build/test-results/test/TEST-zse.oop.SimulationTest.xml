@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="zse.oop.SimulationTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-11-07T10:33:52.707Z" hostname="KOMP11" time="0.071">
+  <properties/>
+  <testcase name="testOptionsParserValidInput()" classname="zse.oop.SimulationTest" time="0.03"/>
+  <testcase name="testOrientationChangesCorrectly()" classname="zse.oop.SimulationTest" time="0.015"/>
+  <testcase name="testOptionsParserInvalidInput()" classname="zse.oop.SimulationTest" time="0.002"/>
+  <testcase name="testAnimalsAlternateMoves()" classname="zse.oop.SimulationTest" time="0.007"/>
+  <testcase name="testAnimalStaysWithinBounds()" classname="zse.oop.SimulationTest" time="0.011"/>
+  <system-out><![CDATA[Pominieto niepoprawny argument: x
+Po ruchu 1:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | | | | |
+  3: | | | | | |
+  2: | | |E| | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 2:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | | | | |
+  3: | | | | | |
+  2: | | |S| | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 3:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | | | | |
+  3: | | | | | |
+  2: | | |E| | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Pominieto niepoprawny argument: bad
+Pominieto niepoprawny argument: 123
+Pominieto niepoprawny argument:  
+Po ruchu 1:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | | |N| |
+  3: | | |N| | |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 2:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | | | | |
+  3: | | |N|N| |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 3:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | | | | |
+  3: | | |E|N| |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 4:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | | | | |
+  3: | | |E|W| |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 1:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | |N| | |
+  3: | | | | | |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 2:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | |N| | |
+  3: | | | | | |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 3:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | |N| | |
+  3: | | | | | |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 4:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | |N| | |
+  3: | | | | | |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 5:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | |N| | |
+  3: | | | | | |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+Po ruchu 6:
+ y\x  0 1 2 3 4
+  5: -----------
+  4: | | |N| | |
+  3: | | | | | |
+  2: | | | | | |
+  1: | | | | | |
+  0: | | | | | |
+ -1: -----------
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
