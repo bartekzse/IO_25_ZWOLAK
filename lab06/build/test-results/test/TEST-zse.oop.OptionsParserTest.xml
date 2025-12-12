@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="zse.oop.OptionsParserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-14T06:59:39.768Z" hostname="KOMP09" time="0.035">
+  <properties/>
+  <testcase name="testParseValidDirections()" classname="zse.oop.OptionsParserTest" time="0.029"/>
+  <testcase name="testParseInvalidDirections()" classname="zse.oop.OptionsParserTest" time="0.003"/>
+  <system-out><![CDATA[Pominieto niepoprawny argument: x
+Pominieto niepoprawny argument: test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
